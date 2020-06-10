@@ -1,0 +1,13 @@
+[Unit]
+Description=Service which sends the temp via I2C to a microcontroller, which in term drives the Fan
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+ExecStart=/home/pi/.I2CFan/I2CFan
+
+[Install]
+WantedBy=multi-user.target
