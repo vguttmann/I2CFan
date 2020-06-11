@@ -43,5 +43,4 @@ As the Pi already has 1.8kΩ pullup resistors installed, you do not need any add
 ## Can I help/contribute?
 At any time you want! 
 In case you have more realistic temperature limits, just make a pull request!
-One thing that I unfortunately don't know how to implement, is a self-learning PID controller, which would be really awesome!
-And if you want to add PID control to the ATtiny, or know a better way of doing something, just go ahead and do it! As long as it works reliably, I will accept it.
+And if you know a better way of doing something, just go ahead and do it! As long as it works reliably, I will accept it.
